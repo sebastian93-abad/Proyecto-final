@@ -1,0 +1,28 @@
+.card-title:hover{
+    text-decoration: underline;
+}
+
+.card:hover{
+    cursor: pointer;
+    border-color: black;
+}
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    border-radius: 50px;
+    background-color: white;
+    
+}
+
+.btn-wsp:hover{
+    background-color: black;
+    width: 90px;
+    height: 90px;
+
+}
