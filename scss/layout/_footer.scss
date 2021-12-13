@@ -1,64 +1,70 @@
-.contenedor-ig{
+.ig{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.btn-ig{
-    width: 30px;
-    height: 30px;
-    margin: 5px;
+
+    &-btn{
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+    
+    &-texto{
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(48, 46, 46);
+        letter-spacing: 5px;
+        margin: 5px;
+    }
 }
 
-.texto-ig{
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(48, 46, 46);
-    letter-spacing: 5px;
-    margin: 5px;
-}
 
-.footer-texto{
-    color: rgb(87, 86, 86);
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 2px;
-    margin-right: 25px;
-    margin-left: 25px;
-    text-decoration: none;
-}
 
-.footer-texto:hover{
-    color:rgb(168, 163, 163);
-}
-
-.contenedor-texto{
+.contenedor{
     display: flex;
     justify-content: center;
     margin: 15px;
+
+    &-texto{
+        color: rgb(87, 86, 86);
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        margin-right: 25px;
+        margin-left: 25px;
+        text-decoration: none;
+    }
 }
 
-.contenedor-wsp{
+.contenedor-texto:hover{
+    color:rgb(168, 163, 163);
+}
+.wsp{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-}
 
-.footer-wsp{
-    width: 20px;
-    height: 20px;
-}
-
-.footer-numero{
-    text-decoration: none;
-    color: rgb(87, 86, 86);
-    font-size: 15px;
-    margin-left: 5px;
-    margin-bottom: 10px;
+    &-img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    &-numero{
+        text-decoration: none;
+        color: rgb(87, 86, 86);
+        font-size: 15px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    
 }
 
 .footer-numero:hover{
     color:rgb(168, 163, 163) ;
 }
+
+
+
 
 
 
